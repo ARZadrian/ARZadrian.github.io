@@ -40,8 +40,8 @@ body{
 }
 
 .nav-item:hover{
-    background-color: white;
-    color: black;
+    background-color: #7979FF ;
+    color: white;
 }
 
 .nav-cv-btn{
@@ -49,6 +49,14 @@ body{
     border-radius: 20px;
     margin-right: 15px;
     margin-top: 15px;
+    border: 1px solid white;
+}
+
+.nav-cv-btn:hover{
+    background-color: #7979FF ;
+    color: white;
+    border: 1px solid #7979FF;
+
 }
 
 .nav-logo{
