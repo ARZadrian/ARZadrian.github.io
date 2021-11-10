@@ -1,0 +1,219 @@
+/* Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;400;500;600;700;800&display=swap');
+
+body{
+    font-family: 'Roboto';
+    /* font-family: 'Raleway', sans-serif; */
+}
+
+.nav{
+    width: 100%;
+    display: flex;
+    background-color: rgb(19, 19, 19);
+    color: white;
+    justify-content: space-between;
+}
+
+.nav-element{
+    height: 70px;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    line-height: 70px;
+}
+
+.nav-header{
+    font-size: 1.5rem;
+    padding: 0 20px;
+    font-weight: 500;
+}
+
+.nav-item-wrp{
+    display: flex;
+}
+
+.nav-item{
+    padding: 0 15px;
+    font-weight: 300;
+}
+
+.nav-item:hover{
+    background-color: white;
+    color: black;
+}
+
+.nav-cv-btn{
+    height: 40px;
+    border-radius: 20px;
+    margin-right: 15px;
+    margin-top: 15px;
+}
+
+.nav-logo{
+    height: 70px;
+    width: 65px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 30px auto;
+}
+
+.linkedin{
+    background-image: url("../assets/logos/In-White-59px-R.png");
+}
+
+.github{
+    background-image: url("../assets/logos/GitHub-Mark-Light-64px.png");
+}
+
+.mail{
+    background-image: url("../assets/logos/outline_email_white_48dp.png");
+}
+
+.nav a{
+    color: white;
+    text-decoration: none; /* no underline */
+}
+
+.nav-link{
+    color: white;
+    text-decoration: none; /* no underline */
+}
+
+.main-header-img{
+    height: 600px;
+    position: fixed;
+    width: 100%;
+    z-index: -1;
+    /* background-image: url("../assets/img/pexels-pixabay-270348.jpg"); */
+    background-image: url("../assets/img/pexels-manuel-geissinger-325229.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main-header-info{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.info-photo{
+    height: 260px;
+    width: 260px;
+    border-radius: 50%;
+    background-color: white;
+    margin: 0 auto;
+    background-image: url("../assets/img/profile.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.info-name{
+    font-size: 70px;
+    font-weight: 600;
+    color: white;
+    text-align: center;
+    padding: 15px 0px 0 0;
+    margin: 0;
+}
+
+.info-career{
+    font-size: 25px;
+    font-weight: 100;
+    color: white;
+    text-align: center;
+    padding-top: 0;
+    margin: 0;
+}
+
+.section-wrp{
+    width: 100%;
+    height: 600px;
+    margin: 0 auto;
+    padding: 0 15px;
+    display: flex;
+    justify-content: space-around;
+    /* background-color: red; */
+}
+
+.section-text{
+    text-align: justify;
+    text-justify: inter-word;
+    font-size: 25px;
+    color: white;
+}
+
+.section-subheader{
+    font-size: 30px;
+    font-weight: 500;
+    color: #7979FF ;
+}
+
+.section-header{
+    font-size: 70px;
+    font-weight: 800;
+    color: white;
+}
+
+
+.project-wrp{
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.project-header{
+    font-size: 30px;
+    font-weight: 500;
+    color: #7979FF ;
+}
+
+.project-text{
+    text-align: justify;
+    text-justify: inter-word;
+    font-size: 16px;
+    font-weight: 300;
+    display: inline-block;
+    width: 500px;
+}
+
+.project-content{
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: space-between;
+}
+
+.project-img{
+    display: inline-block;
+    height: 100%;
+    max-height: 250px;
+    width: auto;
+}
+
+.hdr-icon{
+    margin-right: 20px;
+}
+
+.about-me-div{
+    margin-top: 600px;
+    padding: 10% 5%;
+    background-color: rgb(31, 31, 31);
+}
+
+.projects-div{
+    padding: 5% 5%;
+    background-color: rgb(56, 56, 56);
+    /* background-image: url("../assets/img/codePattern.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; */
+}
+
+.section-text a{
+    color: #7979FF ;
+    text-decoration: none; /* no underline */
+}
