@@ -5,12 +5,14 @@
 
 body{
     font-family: 'Roboto';
+    background-color: rgb(31, 31, 31);
     /* font-family: 'Raleway', sans-serif; */
 }
 
 .nav{
     width: 100%;
-    display: flex;
+    margin: 0;
+    /* display: flex; */
     background-color: rgb(19, 19, 19);
     color: white;
     justify-content: space-between;
@@ -18,7 +20,7 @@ body{
 
 .nav-element{
     height: 70px;
-    display: inline-block;
+    /* display: inline-block; */
     vertical-align: middle;
     text-align: center;
     line-height: 70px;
@@ -56,7 +58,6 @@ body{
     background-color: #7979FF ;
     color: white;
     border: 1px solid #7979FF;
-
 }
 
 .nav-logo{
@@ -101,6 +102,17 @@ body{
     background-size: cover;
 }
 
+.main-phto{
+    display: block; 
+    margin: 0 auto; 
+    width: auto; 
+    height: 600px; 
+    position: absolute; 
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%,0);
+}
+
 .main-header-info{
     position: absolute;
     top: 50%;
@@ -114,10 +126,11 @@ body{
     border-radius: 50%;
     background-color: white;
     margin: 0 auto;
-    background-image: url("../assets/img/profile.jpg");
+    background-image: url("../assets/img/fotoPerfil.png");
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 120% auto;
+
 }
 
 .info-name{
@@ -214,11 +227,11 @@ body{
 
 .projects-div{
     padding: 5% 5%;
-    background-color: rgb(56, 56, 56);
-    /* background-image: url("../assets/img/codePattern.png");
+    background-image: linear-gradient(rgb(0, 0, 0,0.8), rgba(0, 0, 0, 0.8)), url("../assets/img/project.jpg");
+    /* background-color: rgb(56, 56, 56); */
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover; */
+    background-size: cover;
 }
 
 .section-text a{
